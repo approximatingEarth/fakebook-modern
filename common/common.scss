@@ -211,7 +211,7 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
       display: flex;
       flex: 1 1 100%;
       flex-direction: column;
-      margin: 0.5em 0;
+      margin: var(--nav-space) 0 var(--nav-space);
       li {
         margin: 0;
         &:empty {
