@@ -1298,3 +1298,11 @@ section.tag-info {
   border-radius: #{$border-radius}px;
   background: var(--secondary, $secondary);
 }
+
+
+.category-breadcrumb>li {
+  height: auto;
+}
+.category-breadcrumb .select-kit-header {
+  margin-bottom: 0;
+}
