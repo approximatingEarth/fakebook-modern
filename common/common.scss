@@ -1307,13 +1307,6 @@ section.tag-info {
   margin-bottom: 0;
 }
 
-
-.topic-footer-buttons,
-.suggested-topics {
-  width: 900px;
-  margin: 0 auto;
-}
-
 @media screen and (max-width: 950px) {
   .navigation-topics .list-controls+div+span+.container .full-width, .categories-list .list-controls+div+span+.container .full-width, .tags-page .list-controls+div+span+.container .full-width, body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) .list-controls+div+span+.container .full-width {
     max-width: calc(100vw - 20px) !important;
