@@ -14,10 +14,6 @@
   height: 60px;
 }
 
-.d-header > .wrap {
-  @include siteWidth();
-}
-
 .regular {
   #topic-title {
     width: 900px;
