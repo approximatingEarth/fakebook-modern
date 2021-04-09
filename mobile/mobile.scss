@@ -135,6 +135,8 @@ tr {
 }
 
 .suggested-topics-wrapper {
+  max-width: calc(100vw - 20px);
+  margin: auto;
   div.main-link {
     border: none !important;
     margin-bottom: 0.25em;
@@ -151,10 +153,11 @@ tr {
     padding: 1em;
     max-width: unset;
     display: block;
-
     width: 100%;
   }
 }
+
+
 
 .category-list-item .category-topic-link .num,
 .subcategory-list-item .category-topic-link .num {
