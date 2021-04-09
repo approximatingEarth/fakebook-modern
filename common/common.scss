@@ -142,6 +142,10 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
     flex-shrink: 1;
     min-width: 0;
     .container {
+      @include background-and-drop-shadow();
+      padding: 1em !important;
+      border-radius: 8px;
+      margin-bottom: 1em;
       position: -webkit-sticky; // required for Safari
       position: sticky;
       top: 6em; // required for sticky
@@ -203,7 +207,7 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
       display: flex;
       flex: 1 1 100%;
       flex-direction: column;
-      margin: var(--nav-space) 0 var(--nav-space);
+      margin: var(--nav-space) 0 var(--nav-space) !important;
       li {
         margin: 0;
         &:empty {
