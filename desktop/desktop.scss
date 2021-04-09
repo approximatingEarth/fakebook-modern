@@ -18,6 +18,17 @@
   @include siteWidth();
 }
 
+.regular {
+  #topic-title {
+    width: 900px;
+    margin: 0 auto;
+  }
+  .container.posts {
+    width: 900px;
+    margin: 0 auto;
+  }
+}
+
 // User
 
 .user-table {
