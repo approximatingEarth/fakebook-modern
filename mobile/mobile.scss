@@ -22,10 +22,6 @@ body:not(.categories-list) .topic-list {
 
 #main-outlet {
   padding-top: 5em;
-  .container:first-child {
-    width: calc(100vw - 2em);
-    padding: 0 1em;
-  }
 }
 
 .search-container {
