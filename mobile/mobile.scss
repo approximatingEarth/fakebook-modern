@@ -114,7 +114,8 @@ tr {
 .post-stream {
   article,
   .small-action {
-    background: $secondary;
+    background-image: linear-gradient(0deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.05) 100%),
+    linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
     padding: 1em;
     border: 1px solid $primary-low;
     border-radius: 4px;
