@@ -153,7 +153,7 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
 
     + div + span + .container,
     + span + .container {
-      flex-basis: 680px;
+      flex-basis: 610px;
       min-width: 0;
       justify-content: center;
       display: flex;
@@ -354,7 +354,7 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
 // Category Page
 
 .categories-and-latest div.column, .categories-and-top div.column {
-  min-width: 680px;
+  min-width: 610px;
   margin: 0 auto;
 }
 
